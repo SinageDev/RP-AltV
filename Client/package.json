@@ -1,0 +1,10 @@
+{
+  "name": "altv-client",
+  "type": "module",
+  "devDependencies": {
+    "@altv/types-client": "^15.0.13",
+    "@altv/types-natives": "^15.0.8",
+    "@altv/types-shared": "^15.0.9",
+    "@altv/types-webview": "^15.0.8"
+  }
+}

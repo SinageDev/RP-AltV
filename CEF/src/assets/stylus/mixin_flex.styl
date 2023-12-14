@@ -1,0 +1,12 @@
+flex(dir = row, cont = flex-start, calign = stretch, ialign = stretch, fwrap = nowrap)
+  display flex
+  if dir != row
+    flex-direction dir
+  if cont != flex-start
+    justify-content cont
+  if calign != stretch
+    align-content calign
+  if ialign != stretch
+    align-items ialign
+  if fwrap != nowrap
+    flex-wrap fwrap

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Профиль 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\AmericaRP\\altv-server.exe",
+      "workingDirectory": "C:\\AmericaRP"
+    }
+  }
+}

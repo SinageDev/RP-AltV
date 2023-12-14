@@ -1,0 +1,24 @@
+{
+  "name": "@arp/type-inventory",
+  "version": "1.0.2",
+  "description": "This package contains types definitions for alt:V client-side WebView.",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "tsc",
+    "preversion": "npm run test",
+    "release": "npm version --no-git-tag-version"
+  },
+  "keywords": [
+    "arp",
+    "alt"
+  ],
+  "author": "Sinage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altmp/altv/issues"
+  },
+  "homepage": "https://github.com/altmp/altv-types#readme"
+}

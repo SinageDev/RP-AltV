@@ -1,0 +1,30 @@
+{
+  "name": "vue",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "babylonjs": "^5.9.0",
+    "babylonjs-loaders": "^5.9.0",
+    "stylus": "^0.57.0",
+    "three": "^0.141.0",
+    "vue": "^3.2.33",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@altv/types-webview": "^1.0.2",
+    "@babel/types": "^7.17.10",
+    "@types/node": "^17.0.23",
+    "@types/svgo": "^2.6.3",
+    "@types/three": "^0.141.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vite-svg-loader": "^3.3.0",
+    "vue-tsc": "^0.34.13"
+  }
+}

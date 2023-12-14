@@ -1,0 +1,14 @@
+font(size = 1vw, color = #fff, shadow = 0, align = left, font = "Fira-Code")
+  font size font, monospace
+  color color
+  if align != left
+    text-align align
+  if shadow != 0
+    if shadow == 1
+      text-shadow 0 0 0.1vw #000
+    if shadow == 2
+      text-shadow 0.1vw 0.1vw 0.1vw #000
+    if shadow == 3
+      text-shadow 0.1vw 0.1vw 0.1vw #000, -0.1vw -0.1vw 0.1vw #000
+    if shadow == 4
+      text-shadow 0.1vw 0 0.1vw #000, -0.1vw 0 0.1vw #000, 0 0.1vw 0.1vw #000, 0 -0.1vw 0.1vw #000
