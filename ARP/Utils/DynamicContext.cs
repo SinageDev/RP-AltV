@@ -15,7 +15,7 @@ namespace ARP.Utils
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             NpgsqlConnection.GlobalTypeMapper.EnableDynamicJson();
-            optionsBuilder.UseNpgsql("Host=localhost;Database=RPMod;Username=postgres;Password=890142");
+            optionsBuilder.UseNpgsql("Host=;Database=;Username=;Password=");
         }
     }
 
@@ -27,7 +27,7 @@ namespace ARP.Utils
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             NpgsqlConnection.GlobalTypeMapper.EnableDynamicJson();
-            optionsBuilder.UseNpgsql("Host=localhost;Database=StaticARP;Username=postgres;Password=890142");
+            optionsBuilder.UseNpgsql("Host=;Database=;Username=;Password=");
         }
     }
 }
